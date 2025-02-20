@@ -1,1 +1,8 @@
-
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    background-color: #f4f4f4; /* Cor de fundo */
+    color: #333; /* Cor do texto */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimentos padrão */
+    line-height: 1.6; /* Espaçamento entre linhas */
+}
