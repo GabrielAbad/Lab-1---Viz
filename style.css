@@ -1,4 +1,3 @@
-/* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -8,17 +7,16 @@ body {
     line-height: 1.6;
 }
 
-/* Menu de navegação no topo */
 nav {
-    background-color: #2c3e50; /* Cor de fundo do menu */
+    background-color: #2c3e50; 
     padding: 10px 0;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 nav a {
     text-decoration: none;
-    color: #fff; /* Cor do texto dos links */
+    color: #fff; 
     font-weight: bold;
     margin: 0 15px;
     padding: 10px 15px;
@@ -26,20 +24,19 @@ nav a {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Efeito ao passar o mouse */
+
 nav a:hover {
-    background-color: #3498db; /* Cor de fundo ao passar o mouse */
-    color: #fff; /* Cor do texto ao passar o mouse */
+    background-color: #3498db; 
+    color: #fff; 
 }
 
-/* Contêiner para centralizar a foto e o texto */
 .center-content {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centraliza horizontalmente */
-    justify-content: center; /* Centraliza verticalmente */
-    text-align: center; /* Centraliza o texto */
-    margin-top: 20px; /* Espaço entre o menu e o conteúdo */
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    margin-top: 20px; 
 }
 
 h1 {
