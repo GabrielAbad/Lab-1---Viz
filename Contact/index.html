@@ -3,32 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project</title>
-    <link rel="stylesheet" href="contact_style.css">
+
+    <link rel="stylesheet" href="../style.css">
+    <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Me contate por e-mail</h1>
-        
-        <!-- Email Form -->
-        <form action="mailto:your-email@example.com" method="POST" enctype="text/plain">
-            <label for="name">Your Name:</label>
-            <input type="text" id="name" name="name" required><br><br>
-
-            <label for="email">Your Email:</label>
-            <input type="email" id="email" name="email" required><br><br>
-
-            <label for="message">Your Message:</label><br>
-            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
-
-            <button type="submit">Send Email</button>
-        </form>
-    </div>
-
-    <!-- Navigation menu -->
     <nav>
         <a href="../index.html">Home</a>
-        <a href="../resume.html">Resume</a>
+        <a href="../projects/index.html">Projects</a>
+        <a href="../resume/index.html">Resume</a>
+        <a href="../contact/index.html" class="current">Contact</a>
+        <a href="../github/index.html">Github</a>
     </nav>
+    <h1> Gabriel Abad </h1>
+    <h2> Contact Me </h2>
+
+    <form action="mailto:vitor.nascimento@proton.me">
+        <label for="email">Email: <input type="email" name="email" id="email" placeholder="Your email"></label>
+        <label for="subject">Subject: <input name="subject" id="subject" placeholder="Subject"></label>
+        <label for="body">Body: <textarea name="body"></textarea></label>
+        <button>Submit</button>
+    </form>
 </body>
 </html>
