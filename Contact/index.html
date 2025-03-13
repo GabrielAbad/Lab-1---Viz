@@ -3,26 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <title> Mike Wazowski: Personal site and portfolio </title>
     <link rel="stylesheet" href="../style.css">
-    <title>Document</title>
 </head>
 <body>
-    <nav>
-        <a href="../index.html">Home</a>
-        <a href="../projects/index.html">Projects</a>
-        <a href="../resume/index.html">Resume</a>
-        <a href="../Contact/index.html" class="current">Contact</a>
-        <a href="../github/index.html">Github</a>
-    </nav>
-    <h1> Gabriel Abad </h1>
-    <h2> Contact Me </h2>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="../projects/index.html">Projects</a>
+            <a href="../resume/index.html">Resume</a>
+            <a href="index.html" class="current">Contact</a>
+            <a href="https://github.com/Mike-Kowalski">Github</a>
+            
+        </nav>
+        <form action="mailto:foo@example.com" method="GET">
+            <label for="email">Email: <input id="email" type="email" name="text_email"> </label>
+            <label for="subject">Subject: <input id="subject" type="text" name="text_subject"> </label>
+            <label for="body">Body: <textarea id="body" name="text_message"></textarea> </label>
 
-    <form action="">
-        <label for="email">Email: <input type="email" name="email" id="email" placeholder="Your email"></label>
-        <label for="subject">Subject: <input name="subject" id="subject" placeholder="Subject"></label>
-        <label for="body">Body: <textarea name="body"></textarea></label>
-        <button>Submit</button>
-    </form>
+            <input type="submit" value="Submit" id="button">
+            <!-- <button>Submit</button> -->
+        </form>
 </body>
 </html>
